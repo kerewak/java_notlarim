@@ -19,5 +19,31 @@ Standalone Application, Web Application, Enterprise Application, Mobile Applicat
 Java'nın 4 platformu veya sürümü vardır:
 Java SE, Java EE, Java ME, JavaFx.
 
+Java ilk başta gömülü cihazlar için geliştirilen bir projeydi.
+
+Java'nın Özellikleri
+
+1-Simple - Basit
+2-Object-Oriented - Nesne Tabanlı
+3-Portable - Taşınabilir
+4-Platform independent - Platform bağımsız
+5-Secured - Güvenli
+6-Robust - Sağlam
+7-Architecture neutral - Mimari nötr
+8-Interpreted - Yorumlanır
+9-High Performance - Yüksek Performanslı
+10-Multithreaded - İş parçacıklı
+11-Distributed - Dağıtılmış
+12-Dynamic - Dinamik
+
+1940-1950 Fortran
+1960 algo
+1970 kobol
+1980 C, Pascal
+1990 C++
+
+Java'nın sözdizimi C++'a dayanmaktadır.
+Otomatik çöp toplama var.
+Java'daki her şey bir nesnedir.
 
 
