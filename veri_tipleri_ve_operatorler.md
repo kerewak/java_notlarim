@@ -74,6 +74,11 @@ Kontrol
 Tekrar
 Matematik
 
+//Döngünün anatomisi (Tekrarlı işlem var ise)
+Kontrol değişkeni
+Kontrol koşulu
+Döngü gövdesi
+Sonlandırma ifadesi
 
 Döngüler
 
@@ -81,7 +86,9 @@ for(baslangıç; koşul; artım/azalım){
     //yürütülecek kod
 }
 
+java.util
 
+util çeşitli faydalı araçları sunan hazır bir kütüphane.
 
 
 
