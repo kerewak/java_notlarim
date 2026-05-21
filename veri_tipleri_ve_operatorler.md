@@ -64,10 +64,22 @@ class OperatorOrnek {
 
 Çıktı:2
 
+Switch anahtarlama demek. Elimizde bir anahtar var o anahtarın hangi kapıyı açtığını bulmaya çalışıyoruz.
+Case'lerin hiçbirini sağlamıyorsa default ekleyebiliriz.
 
 
+Giriş
+Çıkış
+Kontrol
+Tekrar
+Matematik
 
 
+Döngüler
+
+for(baslangıç; koşul; artım/azalım){
+    //yürütülecek kod
+}
 
 
 
