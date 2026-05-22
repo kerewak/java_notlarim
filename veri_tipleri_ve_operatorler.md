@@ -91,6 +91,26 @@ java.util
 util çeşitli faydalı araçları sunan hazır bir kütüphane.
 
 
+forEach
+
+for(Tip değişken:dizi)
+
+Labeledfor
+program okunabilirliğini azaltır.
+
+Bir program 3 şekilde hata verir.
+Program hata verir.
+Program sonsuza kadar çalışır.
+Yanlış sonuçlar verir.
+
+for döngüsüyle yapabildiğimiz her şeyi while döngüsüyle de yapabiliriz.
+
+while
+do-while
+
+
+
+
 
 
 
