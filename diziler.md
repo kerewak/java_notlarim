@@ -11,5 +11,32 @@ bir
 satırıdır
 */
 
+Yazılım yaşam döngüsü: 
+Analiz
+Gereksinimlerin belirlenmesi
+Planlama
+Tasarım
+Gerçekleştirim
+Test 
+Bakım
+
+Bakım aşamasındaki en önemli kısımlarından programın kullanıcı el kitapları oluşturması. 2. bir iş yükü.
+Hem kod yazarken açıklamalarda bulunacağım daha sonra programın ne yaptığını anlatan bir dokümantasyon oluşturmam gerekiyor.
+
+
+Java Dokümantasyon Yorumları
+
+/**
+Bu
+bir
+dokümantasyon
+yorumudur
+*/
+
+
+
+
+
+
 
 
