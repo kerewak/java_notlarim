@@ -193,6 +193,86 @@ public class App {
 
 replace() method
 
+public class App {
+    public static void main(String[] args) throws Exception {
+        StringBuffer sb=new StringBuffer("Merhaba");
+        sb.replace(1,3,"Java");
+        System.out.println(sb);//prints Mjavahaba
+    }
+}
+
+
+delete() method
+
+public class App {
+    public static void main(String[] args) throws Exception {
+        StringBuffer sb=new StringBuffer("Merhaba");
+        sb.delete(1,3);
+        System.out.println(sb);//Mhaba
+    }
+}
+
+
+
+reverse() method
+
+public class App {
+    public static void main(String[] args) throws Exception {
+        StringBuffer sb=new StringBuffer("Merhaba");
+        sb.reverse();
+        System.out.println(sb);//abahreM
+    }
+}
+
+
+capacity() method
+Arabellek kapasitesini döndürür.
+Tampanun varsayılan kapasitesi 16'dır.
+Karakter sayısı mevcut kapasiteden fazlaysa, kapasiteyi (eski kapasite * 2) + 2 artırır.
+Gelen karakter değeri 16'dan uzunsa, (16 * 2) + 2 = 34 olacaktır.
+
+public class App {
+    public static void main(String[] args) throws Exception {
+        StringBuffer sb=new StringBuffer();
+        System.out.println(sb.capacity());//varsayılan 16
+        sb.append("Merhaba");
+        System.out.println(sb.capacity());//kapasite 16
+        sb.append("java favori programlama dilimdir");
+        System.out.println(sb.capacity());//kapasite (16*2)+2=34 oldu ama 39 yazdı çünkü gereken deger.
+        System.out.println(sb.length());//39
+    }
+}
+
+
+
+--Java StringBuilder Sınıfı--
+
+değiştirilebilir (mutable) string oluşturmak için kullanılır.
+Eşitlenmemiş olması dışında StringBuffer sınıfı ile aynıdır.
+JDK 1.5'den beri kullanılabilir.
+
+append(), insert(), replace(), delete(), reverse(), capacity()
+
+
+
+--String ve StringBuffer Sınıfı Arasındaki Farklar--
+
+String sınıfı değişmezdir.
+StringBuffer sınıfı değişebilir.
+
+String sınıfı her zaman yeni bir örnek oluşturduğundan, string yavaştır ve daha fazla bellek tüketir.
+StringBuffer hızlıdır ve String nesneleri değiştirdiği için daha az bellek tüketir.
+
+String sınıfı object sınıfının equals() methodunu geçersiz kılarken StringBuffer sınıfı geçersiz kılmaz.
+
+
+Hashcode, her bir nesne için oluşturulan bir id.
+
+
+
+--StringBUffer ve StringBuilder Sınıfı Arasındaki Farklar--
+
+
 
 
 
