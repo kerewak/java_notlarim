@@ -270,11 +270,14 @@ Hashcode, her bir nesne için oluşturulan bir id.
 
 
 
---StringBUffer ve StringBuilder Sınıfı Arasındaki Farklar--
+--StringBuffer ve StringBuilder Sınıfı Arasındaki Farklar--
 
+StringBuffer senkronize edilir, yani thread güvenlidir. İki iş parçacığı StringBuffer yöntemlerini aynı anda arayamaz.
 
+StringBuilder senkronize değildir, yani thread güvenli değildir. Bu, StringBuilder yöntemlerini eşzamanlı olarak çağırabilen iki iş parçacığı anlamına gelir.
+Bu çeşitli güvenlik zafiyetleri doğurabilir ama bazen de bu işlemi yapmamız kaçınılmazdır.
 
-
+StringBuilder, StringBuffer'dan daha verimlidir.
 
 
 
