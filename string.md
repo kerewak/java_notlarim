@@ -281,9 +281,12 @@ StringBuilder, StringBuffer'dan daha verimlidir.
 
 
 
+toString() method
+Önemli, özel bir method.
 
+Herhangi bir nesneyi bir string olarak göstermek istiyorsak kullanırız.
 
-
+toString() yöntemi overriding bir metot olması çeşitli avantajlar getirir.
 
 
 
